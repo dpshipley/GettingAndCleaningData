@@ -24,7 +24,7 @@ Project Summary:
  - read features labels (features) and combine with train/test data frame
  - extract a subset that only includes the measurements on the mean and standard deviation features
  - combine the train/test activity data frame with the activity label (activity_labels)
- - append the subject ID and activity label to the appropriate row in the train/test data frame
+ - append the subject ID to the appropriate row in the train/test data frame
  - melt and reshape the data frame to create a tidy data set that includes an average for each variable
  - appropriately label the data set to correct errors and remove restricted characters 
  - write output txt file (tidy_dataset.txt)
