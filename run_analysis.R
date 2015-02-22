@@ -19,7 +19,7 @@ subject <- rbind(sub_test, sub_train)
 features <- read.table ("features.txt",stringsAsFactors=FALSE, col.names=c("index", "feature_label"))
 
 #Create vector that contains just the label column from the "features" data frame
-label <- features$feature_label
+label <- features$label
 #Add labels to x_set data frame before subsetting
 colnames(x_set) <- label        
 #Add logical vector to label data frame indicating columns which have mean() and std() in their name
