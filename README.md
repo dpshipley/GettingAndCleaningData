@@ -17,6 +17,11 @@ Prior to running the run_analysis R script, download and extract the raw data zi
  - X_test.txt
  - y_test.txt
 
+The following libraries are required:
+ - library(data.table)
+ - library(reshape2)
+ - library(plyr)
+ - 
 Project Summary:
  - read and combine the train and test data sets (X_train and X_test) into a single data frame
  - read and combine the train and test activity data sets (y_train and y_test) into a single data frame
